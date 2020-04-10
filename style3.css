@@ -1,0 +1,14 @@
+body{
+	background-image: url(imag.jpg);
+	background-size: cover;
+	font-family:verdana;
+	animation: animate 10s ease-in-out infinite;
+}
+@keyframes animate
+{
+0%,100%{background-image: url(imag/butterfly.jpg);}
+50%{background-image: url(imag/tiger.jpg);}
+h1{
+	
+	font-size: 20px;
+}
